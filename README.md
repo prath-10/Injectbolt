@@ -18,7 +18,7 @@ Simple python tool that goes through a list of URLs trying CRLF and open redirec
 usage: Injectbolt [-h] [-f FILE] [-u URL] [-r] [-w WORKERS] [-t TIMEOUT]
                 [-d DELAY] [-c] [-op]
 
-CRLF and open redirect fuzzer. Crafted by @dubs3c.
+CRLF and open redirect fuzzer.
 
 optional arguments:
   -h, --help            show this help message and exit
