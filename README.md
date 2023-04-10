@@ -13,8 +13,7 @@ Simple python tool that goes through a list of URLs trying CRLF and open redirec
             _/ |                                
            |__/                                 
 
-```          
-
+     
 usage: Injectbolt [-h] [-f FILE] [-u URL] [-r] [-w WORKERS] [-t TIMEOUT]
                 [-d DELAY] [-c] [-op]
 
@@ -151,15 +150,5 @@ https://dubell.io/bountystrike.io
 
 ## Installation
 ```
-pip3.7 install -r requirements.txt --user
+pip3 install -r requirements.txt 
 ```
-
-## Contributing
-Any feedback or ideas are welcome! Want to improve something? Create a pull request!
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Configure pre commit checks: `pre-commit install`
-4. Commit your changes: `git commit -am 'Add some feature'`
-5. Push to the branch: `git push origin my-new-feature`
-6. Submit a pull request :D
