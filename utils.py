@@ -2,19 +2,19 @@ import re
 from urllib.parse import urlsplit, urlunsplit
 
 crlf_payloads = [
-    "%0d%0abounty:strike",
-    "%0abounty:strike",
-    "%0dbounty:strike",
-    "%23%0dbounty:strike",
-    "%3f%0dbounty:strike",
-    "%250abounty:strike",
-    "%25250abounty:strike",
-    "%%0a0abounty:strike",
-    "%3f%0dbounty:strike",
-    "%23%0dbounty:strike",
-    "%25%30abounty:strike",
-    "%25%30%61bounty:strike",
-    "%u000abounty:strike",
+    "?next=evil.com",
+    "?url=evil.com",
+    "?target=evil.com",
+    "?rurl=evil.com",
+    "?dest=evil.com",
+    "?redir=evil.com",
+    "redirect_uri=evil.com",
+    "//www.whitelisteddomain.tld@google.com/%2f..",
+    "///google.com/%2f..",
+    "///www.whitelisteddomain.tld@google.com/%2f..",
+    "////google.com/%2f..",
+    "////www.whitelisteddomain.tld@google.com/%2f..",
+    "ttps://google.com/%2f.."
 ]
 
 openredirect_params = [
